@@ -60,28 +60,28 @@
         bracket: bracket {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LANG1 &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp ENTER &kp LEFT>;
+            bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp ENTER &kp LEFT>;
             label = "BRACKET";
         };
 
         parenthesis: PARENTHESIS {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LANG1 &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp ENTER &kp LEFT>;
+            bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp ENTER &kp LEFT>;
             label = "PARENTHESIS";
         };
 
         brace: brace {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LANG1 &kp LEFT_BRACE &kp RIGHT_BRACE &kp ENTER &kp LEFT>;
+            bindings = <&kp LEFT_BRACE &kp RIGHT_BRACE &kp ENTER &kp LEFT>;
             label = "BRACE";
         };
 
         than: than {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LANG1 &kp LESS_THAN &kp GREATER_THAN &kp ENTER &kp LEFT>;
+            bindings = <&kp LESS_THAN &kp GREATER_THAN &kp ENTER &kp LEFT>;
             label = "THAN";
         };
     };
@@ -102,10 +102,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W             &kp E         &kp R                        &kp T                                                          &kp Y        &kp U  &lt 5 I   &kp O     &kp P
-&kp A             &kp S             &kp D         &kp F                        &kp G        &kp ESC                            &kp SLASH      &kp H        &kp J  &kp K     &kp L     &kp MINUS
-&mt LEFT_SHIFT Z  &kp X             &kp C         &kp V                        &kp B        &kp COLON                          &kp SEMICOLON  &kp N        &kp M  &mkp MB1  &mkp MB2  &mt RIGHT_SHIFT COMMA
-&kp LEFT_COMMAND  &kp LEFT_CONTROL  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp DOT
+&kp Q             &kp W             &kp E         &kp R                        &kp T                                                 &kp Y        &kp U  &lt 5 I   &kp O     &kp P
+&kp A             &kp S             &kp D         &kp F                        &kp G        &kp ESC                   &kp SLASH      &kp H        &kp J  &kp K     &kp L     &kp MINUS
+&mt LEFT_SHIFT Z  &kp X             &kp C         &kp V                        &kp B        &kp COLON                 &kp SEMICOLON  &kp N        &kp M  &mkp MB1  &mkp MB2  &mt RIGHT_SHIFT COMMA
+&kp LEFT_COMMAND  &kp LEFT_CONTROL  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 TAB      &kp BACKSPACE  &lt 1 ENTER                             &kp DOT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -113,10 +113,10 @@
 
         SYMBOL {
             bindings = <
-&kp DOLLAR   &kp PERCENT   &kp AMPERSAND  &kp TILDE        &kp CARET                       &kp NON_US_BACKSLASH  &kp F2  &kp F3  &kp F4  &kp F5
-&kp AT_SIGN  &kp HASH      &kp SLASH      &kp EXCLAMATION  &kp EQUAL  &trans      &kp F13  &kp MINUS             &kp F7  &kp F8  &kp F9  &kp F10
-&kp GRAVE    &kp ASTERISK  &kp PLUS       &kp QUESTION     &kp PIPE   &trans      &trans   &kp UNDERSCORE        &trans  &trans  &trans  &kp F11
-&trans       &trans        &trans         &trans           &trans     &trans      &trans   &trans                                        &kp F12
+&kp DOLLAR   &kp PERCENT   &kp AMPERSAND  &kp TILDE        &kp CARET                       &kp NON_US_BACKSLASH  &brace        &kp F3  &kp F4  &kp F5
+&kp AT_SIGN  &kp HASH      &kp SLASH      &kp EXCLAMATION  &kp EQUAL  &trans      &kp F13  &kp MINUS             &parenthesis  &kp F8  &kp F9  &kp F10
+&kp GRAVE    &kp ASTERISK  &kp PLUS       &kp QUESTION     &kp PIPE   &trans      &trans   &kp UNDERSCORE        &bracket      &trans  &trans  &kp F11
+&trans       &trans        &trans         &trans           &trans     &trans      &trans   &trans                                              &kp F12
             >;
         };
 
