@@ -63,6 +63,27 @@
             bindings = <&kp LANG1 &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp ENTER &kp LEFT>;
             label = "BRACKET";
         };
+
+        parenthesis: PARENTHESIS {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANG1 &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp ENTER &kp LEFT>;
+            label = "PARENTHESIS";
+        };
+
+        brace: brace {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANG1 &kp LEFT_BRACE &kp RIGHT_BRACE &kp ENTER &kp LEFT>;
+            label = "BRACE";
+        };
+
+        than: than {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANG1 &kp LESS_THAN &kp GREATER_THAN &kp ENTER &kp LEFT>;
+            label = "THAN";
+        };
     };
 
     behaviors {
