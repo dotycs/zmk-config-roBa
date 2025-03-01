@@ -126,6 +126,27 @@
             bindings = <&kp LANG1 &kp COMMA>;
             label = "COMMA";
         };
+
+        underscore: underscore {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANG1 &kp COMMA>;
+            label = "UNDERSCORE";
+        };
+
+        semicolon: semicolon {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANG1 &kp SEMICOLON>;
+            label = "SEMICOLON";
+        };
+
+        colon: colon {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANG1 &kp COLON>;
+            label = "COLON";
+        };
     };
 
     behaviors {
