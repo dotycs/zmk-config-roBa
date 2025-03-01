@@ -134,10 +134,10 @@
 
         SYMBOL {
             bindings = <
-&kp DOLLAR   &kp PERCENT   &kp AMPERSAND  &kp TILDE        &kp CARET                       &kp NON_US_BACKSLASH  &brace        &than              &kp LESS_THAN     &kp GREATER_THAN
-&kp AT_SIGN  &kp HASH      &kp SLASH      &kp EXCLAMATION  &kp EQUAL  &trans      &kp F13  &kp MINUS             &parenthesis  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp F10
-&kp GRAVE    &kp ASTERISK  &kp PLUS       &kp QUESTION     &kp PIPE   &trans      &trans   &kp UNDERSCORE        &bracket      &trans             &trans            &kp F11
-&trans       &trans        &trans         &trans           &trans     &trans      &trans   &trans                                                                   &kp F12
+&kp DOLLAR   &kp PERCENT   &kp AMPERSAND  &kp TILDE        &kp CARET                            &kp NON_US_BACKSLASH  &brace        &than              &kp GREATER_THAN  &trans
+&kp AT_SIGN  &kp HASH      &kp SLASH      &kp EXCLAMATION  &kp QUESTION  &trans      &mention   &double_quote         &parenthesis  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp MINUS
+&kp GRAVE    &kp ASTERISK  &kp PLUS       &kp EQUAL        &kp PIPE      &trans      &kp SLASH  &single_quote         &bracket      &kp SEMICOLON      &kp COLON         &kp UNDERSCORE
+&trans       &trans        &trans         &trans           &trans        &trans      &trans     &trans                                                                   &trans
             >;
         };
 
