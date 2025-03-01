@@ -84,6 +84,13 @@
             bindings = <&kp LESS_THAN &kp GREATER_THAN &kp ENTER &kp LEFT>;
             label = "THAN";
         };
+
+        mention: mention {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANG1 &kp AT_SIGN &kp SPACE>;
+            label = "MENTION";
+        };
     };
 
     behaviors {
