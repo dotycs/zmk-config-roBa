@@ -91,6 +91,20 @@
             bindings = <&kp LANG1 &kp AT_SIGN &kp SPACE>;
             label = "MENTION";
         };
+
+        double_quote: double_quote {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOUBLE_QUOTES &kp DOUBLE_QUOTES &kp ENTER &kp LEFT>;
+            label = "DOUBLE_QUOTE";
+        };
+
+        single_quote: single_quote {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SINGLE_QUOTE &kp SINGLE_QUOTE &kp ENTER &kp LEFT>;
+            label = "SINGLE_QUOTE";
+        };
     };
 
     behaviors {
