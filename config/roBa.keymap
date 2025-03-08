@@ -176,9 +176,9 @@
 
         SYMBOL {
             bindings = <
-&kp DOLLAR   &kp PERCENT   &kp AMPERSAND  &kp TILDE        &kp CARET                            &kp NON_US_BACKSLASH  &brace        &than              &kp GREATER_THAN  &trans
-&kp AT_SIGN  &kp HASH      &kp SLASH      &kp EXCLAMATION  &kp QUESTION  &trans      &mention   &double_quote         &parenthesis  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp MINUS
-&kp GRAVE    &kp ASTERISK  &kp PLUS       &kp EQUAL        &kp PIPE      &trans      &kp SLASH  &single_quote         &bracket      &kp SEMICOLON      &kp COLON         &kp UNDERSCORE
+&kp DOLLAR   &kp PERCENT   &kp AMPERSAND  &kp TILDE        &kp CARET                            &kp NON_US_BACKSLASH  &brace        &than             &kp GREATER_THAN   &trans
+&kp AT_SIGN  &kp HASH      &kp SLASH      &kp EXCLAMATION  &kp QUESTION  &trans      &mention   &double_quote         &parenthesis  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS
+&kp GRAVE    &kp ASTERISK  &kp PLUS       &kp EQUAL        &kp PIPE      &trans      &kp SLASH  &single_quote         &bracket      &kp SEMICOLON     &kp COLON          &kp UNDERSCORE
 &trans       &trans        &trans         &trans           &trans        &trans      &trans     &trans                                                                   &trans
             >;
         };
@@ -187,8 +187,8 @@
             bindings = <
 &trans                      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                &kp CARET    &kp AMPERSAND  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp KP_NUMBER_0             &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &underscore  &colon         &kp HASH   &kp AT_SIGN           &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &period    &comma                       &trans          &period      &comma         &kp SLASH  &kp ASTERISK          &kp BACKSLASH
-&trans                      &trans           &trans           &trans           &trans     &trans                       &trans          &trans                                                       &kp ESC
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SLASH  &kp EQUAL                    &trans          &period      &comma         &kp SLASH  &kp ASTERISK          &kp BACKSLASH
+&period                     &comma           &trans           &trans           &trans     &trans                       &trans          &trans                                                       &kp ESC
             >;
         };
 
