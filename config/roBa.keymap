@@ -194,10 +194,10 @@
 
         TEXT-EDIT {
             bindings = <
-&kp ESCAPE     &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                              &trans      &trans            &trans    &trans             &kp DELETE
-&kp PAGE_UP    &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans         &trans      &kp LS(LG(LEFT))  &kp UP    &kp LG(LS(RIGHT))  &trans
-&kp PAGE_DOWN  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans         &kp HOME    &kp LEFT          &kp DOWN  &kp RIGHT          &kp END
-&trans         &trans                  &trans          &trans                   &trans   &trans      &kp BACKSPACE  &kp RETURN                                                 &kp ESC
+&kp ESCAPE     &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                              &trans            &trans        &trans    &trans         &kp DELETE
+&kp PAGE_UP    &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans         &kp LG(UP_ARROW)  &kp LG(LEFT)  &kp UP    &kp LG(RIGHT)  &kp LG(DOWN_ARROW)
+&kp PAGE_DOWN  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans         &kp HOME          &kp LEFT      &kp DOWN  &kp RIGHT      &kp END
+&trans         &trans                  &trans          &trans                   &trans   &trans      &kp BACKSPACE  &kp RETURN                                               &kp ESC
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -214,7 +214,7 @@
 
         SCROLL {
             bindings = <
-&trans          &kp F10               &trans  &trans  &trans                                                             &kp LG(NUMBER_1)  &kp LS(LG(NON_US_BACKSLASH))  &trans                &trans                 &trans
+&trans          &kp F10               &trans  &trans  &trans                                                             &kp LG(NUMBER_1)  &kp LS(LG(NON_US_BACKSLASH))  &kp LS(LC(TAB))       &kp LC(TAB)            &trans
 &kp LS(LG(N5))  &kp LS(LG(NUMBER_4))  &trans  &trans  &kp LG(SPACE)         &trans                     &trans            &kp LG(NUMBER_2)  &kp LG(NUMBER_4)              &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &trans
 &trans          &trans                &trans  &trans  &kp LG(SPACE)         &trans                     &trans            &kp LG(NUMBER_3)  &trans                        &mkp MB1              &mkp MB2               &trans
 &trans          &trans                &trans  &trans  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)      &kp LC(NUMBER_1)  &kp LC(NUMBER_2)                                                                             &trans
