@@ -177,7 +177,7 @@
         SYMBOL {
             bindings = <
 &kp DOLLAR   &kp PERCENT   &kp AMPERSAND  &kp TILDE        &kp CARET                            &brace         &than         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
-&kp AT_SIGN  &kp HASH      &kp SLASH      &kp EXCLAMATION  &kp EQUAL  &kp GRAVE      &mention   &double_quote  &parenthesis  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS
+&kp AT_SIGN  &kp EQUAL     &kp HASH       &kp EXCLAMATION  &kp SLASH  &kp GRAVE      &mention   &double_quote  &parenthesis  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS
 &kp UNDER    &kp ASTERISK  &kp PLUS       &kp QUESTION     &kp PIPE   &trans         &kp SLASH  &single_quote  &bracket      &kp GREATER_THAN      &kp COLON              &kp SEMICOLON
 &trans       &trans        &trans         &trans           &trans     &trans         &trans     &trans                                                                    &trans
             >;
