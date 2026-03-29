@@ -197,8 +197,8 @@
         NUM {
             bindings = <
 &trans                      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                               &kp CARET    &kp AMPERSAND  &kp EQUAL    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp KP_NUMBER_0             &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS  &none       &kp UNDERSCORE  &underscore  &colon         &kp SLASH    &kp MINUS             &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SLASH  &none       &trans          &period      &comma         &underscore  &kp ASTERISK          &kp PLUS
+&kp KP_NUMBER_0             &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS  &trans      &kp UNDERSCORE  &underscore  &colon         &kp SLASH    &kp MINUS             &kp PERCENT
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SLASH  &trans      &trans          &period      &comma         &underscore  &kp ASTERISK          &kp PLUS
 &period                     &comma           &trans           &trans           &trans     &trans      &trans          &trans                                                         &kp ESC
             >;
         };
